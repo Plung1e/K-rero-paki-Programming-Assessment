@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    margin: 0;
+    color: #0A2561;
+    background-image: url(../Images/sea.png);
+    background-size: cover;
+    
+}
+
+.links {
+    width: 100%;
+    background-color: #000000;
+    padding: 0px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 63px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.links li {
+    margin-right: 20px;
+}
+
+.links img {
+    display: block;
+    cursor: pointer;
+}
+
+.links a img {
+    display: block;
+}
+
+
+.links li:first-child a:hover {
+    background-color: transparent;
+}
+
+
+.links a:hover {
+    background-color: #575757;
+}
+
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 16px;
+    margin-top: -10px;
+}
+
+.links a:hover {
+    background-color: #575757;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto; 
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.text-container {
+    padding: 20px;
+    text-align: justify; 
+}
+
+.text-container p {
+    margin: 16px 0;
+    color: #6b6200;
+    line-height: 1.6;
+}
